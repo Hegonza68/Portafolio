@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="shortcut icon" href="/image/portfolio.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>HG Developer Web</title>
+  </head>
+  <body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <h1>HGC</h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                <li><a href="#quienSoy" onclick="seleccionar(this)">QUIEN SOY</a></li>
+                <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                <li><a href="#proyectos" onclick="seleccionar(this)">PROYECTOS</a></li>
+                <li><a href="#contactame" onclick="seleccionar(this)">CONTÁCTAME</a></li>
+              </ul>
+            </nav>
+
+            <!-- Iconos del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!-- Iconos de las redes sociales -->
+            <div id="redes">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <!-- <a href="#"><i class="fa-brands fa-square-facebook"></i></a> -->
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Hola</p>
+          <h2>Soy <span>Henry González C.</span>, Desarrollador Web</h2>
+          <p class="descripcion">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            eveniet odio numquam!
+          </p>
+          <a href="#proyectos">Ir a Mis Proyectos</a>
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION QUIEN SOY  -->
+    <section id="quienSoy">
+      <div class="contenedor-foto">
+        <img src="/image/Curriculum.jpg" alt="" />
+      </div>
+      <div class="quienSoy">
+        <p class="titulo-seccion">Quien Soy</p>
+        <h2>Hola, soy <span>Henry González C.</span></h2>
+        <h3>Desarrollador Web</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
+          officia vero id accusamus repudiandae quod at provident omnis
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
+          officia vero id accusamus repudiandae quod at provident omnis
+        </p>
+        <a href="#">Descargar Curriculum</a>
+      </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+      <h3 class="titulo-seccion">Mis Servicios</h3>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            cupiditate
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            cupiditate
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            cupiditate
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            cupiditate
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            cupiditate
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            cupiditate
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+      <h3>HABILIDADES</h3>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Html & Css</p>
+          <span class="porcentaje">95%</span>
+        </div>
+        <div class="barra">
+          <div id="html" class="barra-progreso1"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>JavaScript</p>
+          <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+          <div id="js" class="barra-progreso2"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>PhotoShop</p>
+          <span class="porcentaje">80%</span>
+        </div>
+        <div class="barra">
+          <div id="ps" class="barra-progreso3"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCION PROYECTOS -->
+    <section id="proyectos">
+      <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/image/spalex.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/image/tourdiez.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/image/serviunidas.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/image/masseguridad.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/image/mariachi2.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/image/mariachi1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="/image/mariachi3.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONTACTAME -->
+    <section id="contactame">
+      <h3 class="titulo-seccion">Contáctame</h3>
+      <div class="container-form">
+        <form id="miFormulario" onsubmit="return validarFormulario()" action="">
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Nombre Completo"
+              class="input-mitad"
+              id="nombre"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Dirección de Email"
+              class="input-mitad"
+              id="email"
+              required
+            />
+          </div>
+          <div class="fila">
+            <input
+              type="text"
+              placeholder="Tema..."
+              class="input-full"
+              id="tema"
+              required
+            />
+          </div>
+          <div class="fila">
+            <textarea
+              name=""
+              id="mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Tu Mensaje..."
+              class="input-full"
+              required
+            ></textarea>
+          </div>
+
+          <div id="warnings" class="error-message"></div>
+          <div id="success" class="success-message"></div>
+
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar" />
+        </form>
+      </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+      <p>Todos los derechos reservados @2023</p>
+      <div id="redes">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
